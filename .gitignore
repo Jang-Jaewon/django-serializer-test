@@ -376,5 +376,5 @@ zsdoc/data
 /.idea/recipe-app-api.iml
 /.idea/vcs.xml
 
-# .env
-my_settings
+## my_settings.py
+my_settings.py
