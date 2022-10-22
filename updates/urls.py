@@ -1,9 +1,8 @@
 from django.urls import path
 
-from .views import update_model_detail_view
+from .views import json_example_view
 
 
 urlpatterns = [
-    path('', update_model_detail_view),
+    path('json/example', json_example_view),
 ]
-

@@ -5,7 +5,7 @@ from django.shortcuts import render
 from .models import Update
 
 
-def update_model_detail_view(request):
+def json_example_view(request):
     data = {
         "count": 1000,
         "content": "Some new content"
